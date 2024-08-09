@@ -19,11 +19,13 @@ class _MainAppState extends State<MainApp> {
       home: SafeArea(
         child: Scaffold(
           appBar: AppBar(
+            backgroundColor: const Color(0xff1A3636),
             title: const Text(
               'Carousel View',
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 fontSize: 32,
+                color: Colors.white,
               ),
             ),
             centerTitle: true,
@@ -34,7 +36,7 @@ class _MainAppState extends State<MainApp> {
                 SizedBox(
                   height: 200,
                   child: CarouselView(
-                    itemExtent: 200,
+                    itemExtent: 180,
                     children: List.generate(10, (int index) {
                       return Container(
                         color: Colors.amber,
