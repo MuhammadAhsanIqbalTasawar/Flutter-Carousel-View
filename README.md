@@ -8,10 +8,17 @@ This repository contains the implementation of the **Carousel View** widget in F
 - **Customizable**: Adjust the appearance, transition effects, and behavior of the carousel.
 - **Efficient**: Optimized for performance, utilizing the latest Flutter updates.
 
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/b327b2e9-a6d2-4246-9b7b-e78a7916b4cf" alt="Carousel View Widget code" width="600"/>
+</div>
+
+
 ## Getting Started
 
 To use the `Carousel View` widget in your Flutter project, follow these steps:
 
 1. **Add to your project**: Since this widget is part of Flutter 3.24, ensure your Flutter SDK is updated to the latest version.
 so just upgrade by running the below command
-   flutter upgrade
+
+          flutter upgrade
